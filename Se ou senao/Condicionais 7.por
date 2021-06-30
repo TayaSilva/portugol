@@ -16,7 +16,7 @@ programa
 		escreva("Escreva o quarto numero: ")
 		leia(num4)
 
-		res= mat.potencia(num3, 2)
+		res= num3*num3
 		
 		se (res >=1000)
 		
@@ -28,8 +28,8 @@ programa
 
 		senao 
 		{
-			escreva("Os valores são, \nnumero um ", mat.potencia(num1,2), "\nnumero dois ", mat.potencia(num2,2), 
-			"\nnumero três ",  mat.potencia(num3,2), "\nnumero quatro ", mat.potencia(num1,2))
+			escreva("Os valores são, \nnumero um ", (num1*num1), "\nnumero dois ", (num2*num2), "\nnumero três ", 
+			(num3*num3), "\nnumero quatro ", (num4*num4))
 		}
 			 
 
@@ -42,7 +42,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 644; 
+ * @POSICAO-CURSOR = 481; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

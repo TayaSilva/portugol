@@ -3,7 +3,7 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro idade 
+		inteiro idade
 		
 		escreva("escreva sua idade ")
 		leia(idade)
@@ -38,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 49; 
+ * @POSICAO-CURSOR = 613; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

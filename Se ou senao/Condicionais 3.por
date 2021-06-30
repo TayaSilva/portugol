@@ -4,20 +4,27 @@ programa
 	funcao inicio()
 	{
 
-	inteiro n1
+	real peso, multa, exc
 
-	escreva("Insira o valor de n1:" )
-	leia(n1)
+	escreva("Digite o peso do tomate: ")
+	leia(peso)
 
-	se(n1>100)
+	exc=(peso-50)
+
+	se(peso>50)
+
 	{
-		escreva("Valor inserido foi ", n1)
-	}	
-	
+		escreva("Você execedeu o valor e irá pagar ", (exc*4), "R$ a mais")
+	}
+
 	senao
 	{
-		escreva("0")
+		escreva("Você não execedeu o valor e irá pagar ", 0.0, "R$")
 	}
+
+
+
+
 
 
 
@@ -32,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 157; 
+ * @POSICAO-CURSOR = 287; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
